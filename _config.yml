@@ -12,7 +12,7 @@ description: >
   S Å G T A N D är ett musikaliskt och tekniskt samarbete mellan 
   olika personer för att undersöka den elektroniska musikens möjligheter.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://sågtand.se" # the base hostname & protocol for your site
+url: "http://xn--sgtand-iua.se" # the base hostname & protocol for your site
 # twitter_username: jekyllrb
 github_username:  sagtand
 
