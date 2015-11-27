@@ -1,0 +1,26 @@
+---
+layout: default
+title: "Tidslinje"
+---
+
+<div class="tidslinje">
+
+  <h1 class="page-heading">Posts</h1>
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+          <h2>
+            {{ post.title }}
+          </h2>
+          <p class="excerpt">{{ post.excerpt | remove: '<p>' | remove: '</p>' }}</p>
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+</div>
