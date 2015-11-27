@@ -1,0 +1,26 @@
+<div class="tidslinje" id="tidslinje">
+
+  <header class="tidslinje-header">
+    <a class="nav-link" href="{{ site.url }}/#tidslinje">
+      <h1 class="page-heading">Tidslinje</h1>
+      <svg class="icon arrow" viewBox="0 0 32 12" version="1.1">
+         <polyline points="1,1 16,10 31,1" fill="none" stroke="#ffffff" stroke-width="1" />
+      </svg>
+    </a>
+  </header>
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+          <h2>
+            {{ post.title }}
+          </h2>
+          <p class="excerpt">{{ post.excerpt | remove: '<p>' | remove: '</p>' }}</p>
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+
+</div>

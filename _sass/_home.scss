@@ -1,0 +1,49 @@
+/**
+ * Home
+ */
+
+.home .landing {
+    height: 100%;
+    height: calc( 100vh - 9rem );
+    @extend .center-center;
+}
+
+.logo {
+    width: 6rem;
+    margin-bottom: 0.4rem;
+}
+.arrow {
+    height: 3.5rem;
+    width: auto;
+    margin: 0 auto;
+    padding: 0.5rem 3rem 2rem;
+    transition: transform $transition-speed $ease-in-out;
+}
+
+.tidslinje-header {
+	text-align: center;
+	@extend .lpb;
+	a {
+		&:hover {
+			.arrow {
+				transform: translate3D(0, 0.5rem, 0);
+			}
+		}
+	}
+}
+
+.post-list {
+    border-left: 2px solid $accent;
+    padding: 0 2rem;
+    .post-meta {
+        position: relative;
+        &::before {
+            content: "";
+            border-top: 2px solid $accent;
+            width: 1rem;
+            position: absolute;
+            top: 0.5rem;
+            left: -2rem;
+        }
+    }
+}
