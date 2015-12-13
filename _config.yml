@@ -29,7 +29,7 @@ defaults:
       type: "posts"
     values:
       excerpt_separator: <!--more-->
-      permalink: :title/
+      permalink: /:title/
       layout: "post"
       author: "Jonas"
   -
