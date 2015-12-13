@@ -1,6 +1,7 @@
 ---
 title:  "Andra repet"
 date:   2015-11-29 15:00
+permalink: andra-repet
 ---
 Andra repet genomfördes den 29 november 2015 från kl 15:00 hemma hos Jonas.
 
