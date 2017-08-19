@@ -1,7 +1,7 @@
 ---
 title:  "Sågtand Colab"
 date:   2016-01-24 22:59
-permalink: andra-repet
+permalink: sagtand-colab
 ---
 Den 24 januari 2016 kl 22:59 lanserades den första versionen av Sågtand Colab, en platform där medverkande kan logga in och lägga till komponenter för att användas i musikproduktioner.
 
