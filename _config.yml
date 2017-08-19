@@ -9,8 +9,8 @@
 title: S Å G T A N D
 email: info@sågtand.se
 description: >
-  S Å G T A N D är ett musikaliskt och tekniskt samarbete mellan 
-  olika personer för att undersöka den elektroniska musikens möjligheter.
+  S Å G T A N D är ett Göteborgsbaserat musikaliskt och tekniskt samarbete 
+  för att undersöka den elektroniska musikens möjligheter.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://sagtand.github.io" # the base hostname & protocol for your site
 # twitter_username: jekyllrb
@@ -29,7 +29,7 @@ defaults:
       type: "posts"
     values:
       excerpt_separator: <!--more-->
-      permalink: :title/
+      permalink: "/:title"
       layout: "post"
       author: "Jonas"
   -

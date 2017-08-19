@@ -5,6 +5,7 @@ date:   2015-11-27 13:16:06 +0100
 categories: blog
 description: Beskrivning av inlägget med *markdown*-stöd
 keywords: Mall, Jekyll
+permalink: mall
 
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes.
