@@ -1,7 +1,7 @@
 ---
 title:  "Mellandags session"
 date:   2017-12-27 22:59
-permalink: sagtand-colab
+permalink: mellandags-session
 author: Linus & Jonas
 ---
 Under mellandagarna 2017-12-27 till 2017-12-30 genomfördes den första 4 dagars sessionen med Sågtand. Två låtar skrevs från början till slut.
