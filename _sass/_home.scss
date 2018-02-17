@@ -8,9 +8,34 @@
     @extend .center-center;
 }
 
+@keyframes pop {
+    0% { opacity: 0; transform: scale(0.9)}
+    100% {opacity: 1; transform: scale(1)}
+}
 .logo {
-    width: 6rem;
-    margin-bottom: 0.4rem;
+    width: 80%;
+    max-width: 40rem;
+    margin-top: 2rem;
+    path {
+        opacity: 0;
+        transform-origin: center center;
+        animation: pop 0.5s 0s cubic-bezier(0.24, 1.8, 0.55, 0.75) forwards;
+    }
+    path:nth-of-type(2) {
+        animation-delay: 0.2s;
+    }
+    path:nth-of-type(3) {
+        animation-delay: 0.3s;
+    }
+    path:nth-of-type(4) {
+        animation-delay: 0.1s;
+    }
+}
+.logo-symbol {
+    width: 4rem;
+    position: fixed;
+    top: 1em;
+    left: 2em;
 }
 .arrow {
     height: 3.5rem;
