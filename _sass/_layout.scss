@@ -210,8 +210,9 @@
 /**
  * Posts
  */
-.post-header {
-    margin-bottom: $spacing-unit;
+.post {
+    margin-top: $spacing-unit*4;
+    margin-bottom: $spacing-unit*2;
 }
 
 .post-title {

@@ -31,11 +31,22 @@
         animation-delay: 0.1s;
     }
 }
+@keyframes logo {
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
 .logo-symbol {
     width: 4rem;
     position: fixed;
     top: 1em;
-    left: 2em;
+    left: $spacing-unit;
+    stroke-dasharray: 150,150;
+    stroke-dashoffset: 150;
+    animation: logo 2s forwards cubic-bezier(0.11, 0.36, 0.17, 1);
+    @include media-query($on-laptop) {
+        left: $spacing-unit / 2;
+    }
 }
 .arrow {
     height: 3.5rem;
